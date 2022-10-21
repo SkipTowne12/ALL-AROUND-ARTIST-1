@@ -1,0 +1,49 @@
+ * {
+
+background-color: black;
+ }
+ 
+    nav {
+    height:100px;
+    background-color: black;
+ }
+ .logo{
+   float:left;
+   height:100px;
+ }
+ ul {
+   float:right;
+ }
+ ul li {
+    list-style: none;
+    display:inline-block;
+    margin:0;
+    height:100px;
+    width: 100px;
+    color:white;
+    background-color: rgb(63, 9, 9);
+ }
+
+   ul li a {float: right; line-break: normal;
+    display:block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:ariel;
+    color: white;
+    padding:10px 20px;
+   }
+
+
+   .portfolio-img {
+    height: 200px;
+   }
+   .gallery-section{
+    width: 100vw;
+    column-count: 4;
+   }
+   .gallery-img{
+    height:200px;
+   }
+   .
+    
+   }
