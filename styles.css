@@ -3,10 +3,10 @@
 background-color: black;
  }
  
-    nav {
+    .nav {
     height:100px;display: inline-block;
-    background-color: black;
-    padding-bottom: 100px; font-family: 'Island Moments', cursive;
+    background-color: rgb(160, 14, 14);
+    padding-bottom: 75px; font-family: 'Island Moments', cursive;
     color:white;
     }
     nav a{
@@ -44,7 +44,7 @@ text-align: center;
     height:100px;
     width: 100px;
     color:white;
-    background-color: rgb(63, 9, 9);
+    background-color: rgb(63, 9, 9);font-family: 'Island Moments', cursive;;
  }
  .row-home {
    --n: 2; /* number of rows*/
@@ -62,8 +62,8 @@ text-align: center;
  
  .gallery-home {
 
-  position: relative;
-  left: 25%;
+  
+  margin-top: 50px;
    --n: 3; /* number of rows*/
    --m: 4; /* number of columns */
    --h: 120px; /* control the height */
@@ -75,7 +75,7 @@ text-align: center;
    gap: var(--g);
    width:  calc(var(--m)*var(--w) + (var(--m) - 1)*var(--g));
    height: calc(var(--n)*var(--h) + (var(--n) - 1)*var(--g));
-   grid-template-columns: repeat(var(--m),auto);padding-bottom: 25px;
+   grid-template-columns: repeat(var(--m),auto);padding-bottom: 45px;
  }
  
  .gallery-home > img {
@@ -100,16 +100,14 @@ text-align: center;
    margin: 0;
    min-height: 100vh;
    display: grid;
-   place-content: center;
-   background: #60c4ff;
- }
+   place-content: center;}
+   
+  
  
    
 .h1{ color:red;
-   height: 200px;
+   height: 450px;}
    
-
-}
 .form{
    color: red; text-shadow: 25cm;display:contents ;
 }
@@ -230,7 +228,7 @@ text-align: center;
    height: calc(var(--s)*var(--f));
  }
  
- .p{font-family: Verdana, Geneva, Tahoma, sans-serif;color: red;}
+ .p .above-about{font-family:sans-serifhei;color: red; text-align: center;font-size: smaller;}
 
    
 
@@ -246,7 +244,7 @@ text-align: center;
 .bottom{
    column-count: 2;
 }
-.fa-brands{font-display:var(--g)10px;
+.fa-brands{font-display:var(--g)300px;
    min-height: 300px;
     min-width: 300px;
    color: red;
